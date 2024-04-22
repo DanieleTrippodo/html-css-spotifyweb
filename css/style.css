@@ -1,0 +1,22 @@
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+
+
+
+
+
+
+
+/* + Nav bar laterale a sinistra */
+.NavBar-Left{
+    width: 70%;
+    height: 70%;
+
+    background-color: black;
+}
+
