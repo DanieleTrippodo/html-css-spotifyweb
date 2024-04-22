@@ -13,10 +13,11 @@
 
 
 /* + Nav bar laterale a sinistra */
-.NavBar-Left{
-    width: 70%;
-    height: 70%;
+.NavBar-left{
+    height: 100vh;   /* altezza della barra */
+    width: 15vw;    /* lunghezza della barra */
 
     background-color: black;
+    color: white;
 }
 
