@@ -12,13 +12,14 @@ html{
 }
 
 
-main{
-    padding-left: 14%;
-    padding-top: 6rem;
-    padding-bottom: 3rem; /* da rivedere */
+main {
+    padding-left: 12%;
+    /* padding-top: 6rem; */
+    padding-bottom: 3rem;
     color: white;
 
-    overflow-y: auto; /* scrolling verticale solo se il contenuto supera l'altezza del main */
+
+    overflow-y: auto; /* per aggiungere la scrollbar */
 }
 
 
@@ -104,12 +105,12 @@ main{
 .upgrade{
     width: 100%;
 
-    position: relative;
+    /* position: relative; */
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
     background-color: black;
-    position: absolute;
+    /* position: absolute; */
     color: white;
 }
 
@@ -298,3 +299,33 @@ main{
     width: 100px;
 }
 /* #testing */
+
+
+
+.explore{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    justify-content: center;
+    color: gray;
+
+    margin-top: 1rem;
+}
+
+
+#RecentPlay{
+    margin-bottom: 2rem;
+}
+
+.Recently-Played{
+    padding: 3rem;
+    padding-bottom: 1.8rem;
+}
+
+
+
+.album{
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+}
