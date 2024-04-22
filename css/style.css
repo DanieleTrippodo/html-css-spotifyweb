@@ -5,7 +5,13 @@
     box-sizing: border-box; 
 }
 
+#side-logo{
+    height: 90%;
+    margin: auto; /* Per centrare verticalmente */
+    display: block; /* Per assicurarti che il logo sia centrato */
 
+    padding: .9rem;
+}
 
 
 
@@ -14,10 +20,32 @@
 
 /* + Nav bar laterale a sinistra */
 .NavBar-left{
+    display: flex;
+    flex-direction: column;
+    
+
+    
     height: 100vh;   /* altezza della barra */
-    width: 15vw;    /* lunghezza della barra */
+    width: 12vw;    /* lunghezza della barra */
 
     background-color: black;
     color: white;
 }
 
+
+
+/* +elementi barra sinistra - disposizione elementi dentro la barra nera */
+.list-element-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.element-of-list{
+    display: flex;
+    flex-direction: row;
+
+    padding: .5rem 1.8rem;
+    gap: .5rem;
+}
