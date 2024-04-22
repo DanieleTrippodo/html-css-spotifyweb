@@ -17,6 +17,8 @@ main{
     padding-top: 6%;
     padding-bottom: 3rem; /* da rivedere */
     color: white;
+
+    overflow-y: auto; /* scrolling verticale solo se il contenuto supera l'altezza del main */
 }
 
 
@@ -183,6 +185,44 @@ main{
 
 
 
+
+
+.music-progression{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.music-bar{
+    background-color: gray;
+    width: 300px;
+    height: 10px;
+    border-radius: 2rem;
+    
+    margin-left: 1.3rem;
+    margin-right: 1.3rem;
+}
+
+
+
+.music-minute{
+    z-index: 2;
+    background-color: white;
+    width: 72px;
+    height: 10px;
+    border-radius: 2rem;
+}
+
+
+
+
+
+
+
+
 #music-bar{
     position: fixed;
     bottom: 0;
@@ -237,3 +277,4 @@ main{
 
     gap: .9rem;
 }
+
