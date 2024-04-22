@@ -14,7 +14,7 @@ html{
 
 main{
     padding-left: 14%;
-    padding-top: 6%;
+    padding-top: 6rem;
     padding-bottom: 3rem; /* da rivedere */
     color: white;
 
@@ -120,6 +120,7 @@ main{
     display: flex;
     flex-direction: column;
     position: absolute;
+    position: fixed;
     
 
     
@@ -278,3 +279,22 @@ main{
     gap: .9rem;
 }
 
+
+
+
+
+
+
+/* #testing */
+.profile{
+    display: flex;
+    flex-direction: column;
+
+    padding-top: 20rem;
+}
+
+
+.profile-division{
+    width: 100px;
+}
+/* #testing */
