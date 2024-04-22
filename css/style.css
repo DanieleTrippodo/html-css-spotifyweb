@@ -137,3 +137,66 @@ html{
 }
 
 
+
+
+
+
+
+
+
+
+
+#music-bar{
+    position: fixed;
+    bottom: 0;
+    width: 100%; 
+    height: 8vh;
+    background-color: rgb(39, 39, 39);
+
+
+    /* organizzazione elementi al suo interno */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+
+    color: white;
+}
+
+
+.music{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+
+    gap: .8rem;
+}
+
+.nameandartist{
+    display: flex;
+    flex-direction: column;
+}
+
+#play-now{
+    width: 20%;
+    padding-left: 1.8rem;
+}
+
+.name-song{
+    margin-right: 1.8rem;
+    color: white;
+}
+
+.name-artist{
+    color: gray;
+}
+
+.favorite{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    gap: .9rem;
+}
