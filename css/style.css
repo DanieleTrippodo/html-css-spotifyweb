@@ -386,11 +386,14 @@ main {
     }
 
     .NavBar-left{
-        font-size: small;
+        font-size: x-large;
+        width: 15rem;
     }
 
     .upgrade{
         height: 60px;
+        width: 64rem;
+        margin-left: 11%;
     }
 
 
@@ -412,6 +415,27 @@ main {
 
     .albumphoto{
         width: 150%;
+    }
+
+
+    .tablet{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 120%;
+        gap: 5rem;
+        flex-wrap: wrap;
+    }
+
+    .Recently-Played{
+        margin-bottom: 2rem;
+        margin-left: 6rem;
+    }
+
+
+    .explore{
+        margin-left: 9rem;
+        flex-wrap: wrap;
     }
 
 }
