@@ -388,6 +388,7 @@ main {
     .NavBar-left{
         font-size: x-large;
         width: 15rem;
+        z-index: 3;
     }
 
     .upgrade{
@@ -449,4 +450,22 @@ main {
 /* Per il formato smartphone */
 @media only screen and (max-width: 767px) {
     /* regole CSS per lo smartphone */
+
+
+    .gray{
+        display: none;
+    }
+
+
+    #playlist-section {
+        display: none;
+    }
+
+
+    .list-element-left{
+        width: 270%;
+    }
+
+
+
 }
