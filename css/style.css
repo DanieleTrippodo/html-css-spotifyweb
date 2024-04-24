@@ -580,6 +580,51 @@ main {
     }
 
 
+    .priority{
+        z-index: 4;
+    }
 
+    .music-bar{
+        width: 137px;
+
+        margin-left: .3rem;
+        margin-right: .3rem;
+    }
+
+
+    .size-minute{
+        font-size: 12px;
+    }
+
+    .gap {
+        gap: .8rem;
+    }
+
+
+    #play-now {
+        width: 30%;
+        padding: 0.3rem;
+        margin-left: .3rem;
+    }
+
+
+    .favorite{
+        flex-direction: column;
+    }
+
+
+    .volume-bar {
+        width: 60px;
+        margin-right: 0.8rem;
+    }
+
+    .volume{
+        width: 15px;
+    }
+
+
+    .space-android{
+        margin-left: 5rem;
+    }
 
 }
