@@ -387,14 +387,13 @@ main {
 
     .NavBar-left{
         font-size: x-large;
-        width: 15rem;
+        width: 14rem;
         z-index: 3;
     }
 
     .upgrade{
         height: 60px;
         width: 64rem;
-        margin-left: 11%;
     }
 
 
@@ -428,6 +427,12 @@ main {
         flex-wrap: wrap;
     }
 
+
+    .tablet2{
+        max-width: 12rem;
+        margin-left: 7rem;
+    }
+
     .Recently-Played{
         margin-bottom: 2rem;
         margin-left: 6rem;
@@ -437,6 +442,31 @@ main {
     .explore{
         margin-left: 9rem;
         flex-wrap: wrap;
+    }
+
+
+    #music-bar{
+        z-index: 3;
+    }
+
+    .music-bar{
+        width: 12rem;
+    }
+
+    .music{
+        font-size: medium;
+        gap: 0.3rem;
+        max-width: 40%;
+    }
+
+
+    #play-now{
+        width: 20%;
+        padding-left: 0.3rem;
+    }
+
+    .music-minute{
+        width: 3rem;
     }
 
 }
@@ -451,6 +481,36 @@ main {
 @media only screen and (max-width: 767px) {
     /* regole CSS per lo smartphone */
 
+    .smartphone{
+        display: flex;
+        gap: 2rem;
+        flex-wrap: wrap;
+    }
+
+    .smartphone-view{
+        padding-left: .5rem;
+    }
+
+
+
+    #side-logo{
+        display: none;
+    }
+
+
+
+    .NavBar-left{
+        width: 8%;
+    }
+
+    .smartphone-v{
+        margin-left: -4%;
+    }
+
+
+    .smartphone-size{
+        width: 125rem;
+    }
 
     .gray{
         display: none;
