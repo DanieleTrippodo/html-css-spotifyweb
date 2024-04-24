@@ -501,14 +501,11 @@ main {
 
 
 
-
-
-
     .android{
         display: flex;
         align-items: flex-start;
         justify-content: flex-start;
-        gap: 3rem;
+        gap: 4.2rem;
         flex-wrap: wrap;
         max-width: 80vh;
     }
@@ -522,7 +519,7 @@ main {
 
     .smartphone{
         display: flex;
-        gap: 2rem;
+        gap: 3.5rem;
         flex-wrap: wrap;
     }
 
@@ -581,6 +578,8 @@ main {
     .mix{
         width: 15rem;
     }
+
+
 
 
 }
