@@ -35,6 +35,11 @@ main {
 }
 
 
+#side-logo-small{
+    display: none;
+}
+
+
 #playlist-section{
     padding: 1.7rem;
     padding-bottom: 0.4rem;
@@ -352,7 +357,9 @@ main {
 .album{
     display: flex;
     flex-direction: column;
-    width: 13%;
+
+
+    width: 12%;
 }
 
 
@@ -481,6 +488,38 @@ main {
 @media only screen and (max-width: 767px) {
     /* regole CSS per lo smartphone */
 
+    #side-logo-small{
+        display: block;
+
+        height: 25%;
+        /* margin-left: 0; */
+        margin: 2px;
+
+        padding: 1rem;
+        padding-left: 0;
+    }
+
+
+
+
+
+
+    .android{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 3rem;
+        flex-wrap: wrap;
+        max-width: 80vh;
+    }
+
+
+    .albumphoto{
+        width: 16rem;
+        
+    }
+
+
     .smartphone{
         display: flex;
         gap: 2rem;
@@ -500,7 +539,11 @@ main {
 
 
     .NavBar-left{
-        width: 8%;
+
+        font-size: x-large;
+        width: 4rem;
+        z-index: 3;
+
     }
 
     .smartphone-v{
@@ -526,6 +569,18 @@ main {
         width: 270%;
     }
 
+
+    .album{
+        width: 43%;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+
+
+    .mix{
+        width: 15rem;
+    }
 
 
 }
